@@ -1,6 +1,6 @@
 import openai
 
-with open('hidden.txt') as file:
+with open('apikeyfile') as file:
     openai.api_key=file.read()
 
 
